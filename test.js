@@ -3,5 +3,5 @@ const   Domria_url_parser = require('./domriaRegExp'),
 
 const domria_url_parser = new Domria_url_parser();
 for(item of url_examples){
-        console.log(`${domria_url_parser.parse(item)!==null}  ${item}`);
+        console.log(`${domria_url_parser.parse(item)!=null}  ${item}`);
 }
